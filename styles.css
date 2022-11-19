@@ -2,21 +2,66 @@
   margin: 0;
   padding: 0;
 }
-.nav{
+
+
+
+nav{
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 75px;
+  justify-content: space-around;
 }
-.li {
-  list-style: none;
-  font-size: 20px;
-  justify-content: center;
+
+.nav-left{
+  flex-basis:20%;
+
+}
+
+.nav-left img{
+  width:60%;
+}
+.menu{
+  flex-basis: 50%;
+}
+
+.menu ul li{
+  display: inline;
+  
+ 
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color:black;
+  font-size: 3rem;
+  padding: 65px 103px;
+
+}
+nav.gym{
+  display: flex;
+  flex-basis: 10%;
+  justify-content: space-between;
+  
+
+
+
 }
 .gym img{
-  display: flex;
+width: 42px;
+top: 75%;
+padding-right: 7px;
+
 }
-.button.btn.btn-outline-success{
-  display: flex;
-  margin-top: 30px;
-  justify-content: end;
+.gym2 button {
+  margin-left: 5px;
+  font-size: 3rem;
+  background-color: red;
+  color: #FFFF;
+
+
+}
+
+
+nav div img{
+  width: 65pxg
 }
