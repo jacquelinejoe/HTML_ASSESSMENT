@@ -8,20 +8,26 @@
 nav{
   display: flex;
   justify-content: space-around;
-  margin-top: 75px;
+  margin-top: 70px;
   justify-content: space-around;
 }
 
 .nav-left{
   flex-basis:20%;
+  padding-bottom: 35px;
 
 }
 
 .nav-left img{
-  width:60%;
+  width: 75%;
+  height: 121px;
+  padding: 16px 34px 42px 36px;
 }
+
+
 .menu{
   flex-basis: 50%;
+  margin-top: 45px;
 }
 
 .menu ul li{
@@ -34,22 +40,37 @@ nav{
   text-decoration: none;
   color:black;
   font-size: 3rem;
-  padding: 65px 103px;
+  padding: 55px  56px 75px 124px;
 
 }
+
+ul{
+  padding: 10px;
+}
+
+
 nav.gym{
   display: flex;
-  flex-basis: 10%;
+  flex-basis: 15%;
   justify-content: space-between;
   
 
-
-
 }
+
+div.gym{
+  margin-top: 49px;
+}
+
+div.gym2{
+  margin-top: 45px
+}
+
+
+
 .gym img{
-width: 42px;
+width: 53px;
 top: 75%;
-padding-right: 7px;
+padding-right: 81px;
 
 }
 .gym2 button {
@@ -57,11 +78,26 @@ padding-right: 7px;
   font-size: 3rem;
   background-color: red;
   color: #FFFF;
+  border-radius: 5px;
+  text-align: center;
 
 
 }
 
+.image-container {
+  position: relative;
+}
 
-nav div img{
-  width: 65pxg
+.image-container .background img {
+  width: 100%;
+}
+
+.image-container .foreground {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+
+.image-container .foreground img {
+  width: 165%;
 }
