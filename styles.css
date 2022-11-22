@@ -102,34 +102,35 @@ padding-right: 81px;
 }
 
 .workout{
-  height: 100vh;
-  display: flex;
+  width: 10%;
+  position: relative;
+  height: 45vh;
 }
 
 .workout1{
-  position: relative;
-  left:-1px;
-  width: 277%;
-  height: 35%;
-  margin-right: -95px;
-  background: #808080;
-
+  position: absolute;
+  right: 16%;
+  top: 38%;
+  text-align: center;
+  font-size: 35px;
+  background: #5a5656;
 }
 
 .workout2{
-  position:relative;
-  left: -71px;
-  width: 300%;
-  height: 35%;
-  background: #808080;
+  position: absolute;
+  right: 16%;
+  top: 38%;
+  text-align: center;
+  font-size: 35px;
+  background: #d9d3d3;
 }
-
 
 .workout3{
-  position:relative;
-  width: 264%;
-  height: 35%;
-  left: -136px;
-  margin-right: -212px;
+  position: absolute;
+  right: 16%;
+  top: 38%;
+  text-align: center;
+  font-size: 35px;
   background: #ff0000;
 }
+
