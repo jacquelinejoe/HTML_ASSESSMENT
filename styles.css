@@ -4,7 +4,6 @@
 }
 
 
-
 nav{
   display: flex;
   justify-content: space-around;
@@ -79,7 +78,7 @@ padding-right: 81px;
   background-color: red;
   color: #FFFF;
   border-radius: 5px;
-  text-align: center;
+  justify-content  :center ;
 
 
 }
@@ -94,10 +93,43 @@ padding-right: 81px;
 
 .image-container .foreground {
   position: absolute;
-  top: 35%;
-  left: 35%;
+  top: 33%;
+  left: 22%;
 }
 
 .image-container .foreground img {
   width: 165%;
+}
+
+.workout{
+  height: 100vh;
+  display: flex;
+}
+
+.workout1{
+  position: relative;
+  left:-1px;
+  width: 277%;
+  height: 35%;
+  margin-right: -95px;
+  background: #808080;
+
+}
+
+.workout2{
+  position:relative;
+  left: -71px;
+  width: 300%;
+  height: 35%;
+  background: #808080;
+}
+
+
+.workout3{
+  position:relative;
+  width: 264%;
+  height: 35%;
+  left: -136px;
+  margin-right: -212px;
+  background: #ff0000;
 }
