@@ -4,7 +4,6 @@
 }
 
 header {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +39,86 @@ header .sign-up-btn button {
   left: 20vw;
   width: 25vw;
 }
+
+.row {
+  display: flex;
+}
+
+.col-sm-3 .box1 {
+  background-color: black;
+    color: #fff;
+    text-align: end;
+    width: 33vw;
+}
+
+.col-sm-3 .box2 {
+  background-color: #EEEEEE;
+    color: #fff;
+    text-align: center;
+    width: 32vw;
+}
+
+.col-sm-3 .box3 {
+  background-color: red;
+    color: #fff;
+    text-align: start;
+    width: 33vw;
+}
+
+.col-sm-3 .box1 img {
+  width: 4.7vw;
+  padding: 2vw 6vw;
+}
+
+.col-sm-3 .box1 h2 {
+  padding-right: 3.5vw;
+}
+
+.col-sm-3 .box1 p {
+  line-height: 25px;
+  text-indent: 16px;
+  padding: 1vw 3vw 0vw 0vw;
+}
+
+.col-sm-3 .box2 img {
+  width: 4.2vw;
+  padding: 2vw 1vw;
+  color: black;
+}
+
+.col-sm-3 .box2 h2 {
+  padding-bottom: 1vw;
+  color: red;
+}
+
+.col-sm-3 .box2 p {
+  line-height: 25px;
+  text-indent: 16px;
+  color: black ;
+}
+
+.col-sm-3 .box3 img {
+  width: 3.1vw;
+  padding: 2vw 7vw;
+}
+
+.col-sm-3 .box3 h2 {
+  padding: 0vw 0vw 1vw 4.6vw;
+}
+
+.col-sm-3 .box3 p {
+  line-height: 25px;
+  text-indent: 16px;
+  padding: 0vw 0vw 0vw 3vw;
+}
+
+.title .gym {
+  width: 100%;
+}
+
+
+
+
 
 
 
