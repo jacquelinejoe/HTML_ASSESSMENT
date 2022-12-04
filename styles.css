@@ -3,134 +3,46 @@
   padding: 0;
 }
 
-
-nav{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 70px;
-  justify-content: space-around;
-}
-
-.nav-left{
-  flex-basis:20%;
-  padding-bottom: 35px;
-
-}
-
-.nav-left img{
-  width: 75%;
-  height: 121px;
-  padding: 16px 34px 42px 36px;
-}
-
-
-.menu{
-  flex-basis: 50%;
-  margin-top: 45px;
-}
-
-.menu ul li{
-  display: inline;
-  
- 
-}
-
-.menu ul li a{
-  text-decoration: none;
-  color:black;
-  font-size: 3rem;
-  padding: 55px  56px 75px 124px;
-
-}
-
-ul{
-  padding: 10px;
-}
-
-
-nav.gym{
-  display: flex;
-  flex-basis: 15%;
-  justify-content: space-between;
-  
-
-}
-
-div.gym{
-  margin-top: 49px;
-}
-
-div.gym2{
-  margin-top: 45px
-}
-
-
-
-.gym img{
-width: 53px;
-top: 75%;
-padding-right: 81px;
-
-}
-.gym2 button {
-  margin-left: 5px;
-  font-size: 3rem;
-  background-color: red;
-  color: #FFFF;
-  border-radius: 5px;
-  justify-content  :center ;
-
-
-}
-
-.image-container {
-  position: relative;
-}
-
-.image-container .background img {
+header {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 5vw;
 }
 
-.image-container .foreground {
+header .brand-logo img {
+  width: 8vw;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  margin-right: 4vw;
+  text-transform: uppercase;
+}
+
+header nav a.active {
+color: red;
+}
+
+header .sign-up-btn button {
+  padding: 0.5vw 1.5vw;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+#title-text {
   position: absolute;
-  top: 33%;
-  left: 22%;
+  top: 20vw;
+  left: 20vw;
+  width: 25vw;
 }
 
-.image-container .foreground img {
-  width: 165%;
-}
 
-.workout{
-  width: 10%;
-  position: relative;
-  height: 45vh;
-}
 
-.workout1{
-  position: absolute;
-  right: 16%;
-  top: 38%;
-  text-align: center;
-  font-size: 35px;
-  background: #5a5656;
-}
 
-.workout2{
-  position: absolute;
-  right: 16%;
-  top: 38%;
-  text-align: center;
-  font-size: 35px;
-  background: #d9d3d3;
-}
 
-.workout3{
-  position: absolute;
-  right: 16%;
-  top: 38%;
-  text-align: center;
-  font-size: 35px;
-  background: #ff0000;
-}
 
