@@ -77,7 +77,10 @@ header .sign-up-btn button {
 .col-sm-3 .box1 p {
   line-height: 25px;
   text-indent: 16px;
-  padding: 1vw 3vw 0vw 0vw;
+  padding: 1vw 3vw 2vw 0vw;
+  font-size: 12px;
+  position: relative;
+  right: 1rem;
 }
 
 .col-sm-3 .box2 img {
@@ -95,6 +98,8 @@ header .sign-up-btn button {
   line-height: 25px;
   text-indent: 16px;
   color: black ;
+  padding: 0vw 0vw 2vw 0vw;
+  font-size: 12px;
 }
 
 .col-sm-3 .box3 img {
@@ -109,11 +114,99 @@ header .sign-up-btn button {
 .col-sm-3 .box3 p {
   line-height: 25px;
   text-indent: 16px;
-  padding: 0vw 0vw 0vw 3vw;
+  padding: 0vw 2vw 2vw 3vw;
 }
 
 .title .gym {
   width: 100%;
+}
+.couple-section{
+  width:80vw;
+  margin:2vw auto 0 auto;
+  display:flex;
+}
+
+.hero .bck-ground-logo {
+  position: absolute;
+  width: 39vw;
+  left: 59vw;
+  padding: 0;
+  margin: 0; 
+}
+
+.couple-logo {
+  position: absolute;
+  top: 67vw;
+  right: 15vw;
+  width: 21vw;
+}
+
+.about {
+  padding: 5vw 0vw 0vw 18vw;
+  width: 24%;
+}
+
+.heading-img .h2 {
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+.about h3 {
+  padding-bottom: 1rem;
+  font-size: 42px;
+}
+
+.trainer {
+  padding-left: 24%;
+}
+
+.trainer img {
+  position: relative;
+  top: 3vw;
+  right: 6vw;
+}
+
+.trainer2 {
+padding-left: 24%;
+}
+
+.trainer2 img {
+  position: relative;
+  right: 6vw;
+  top: 3vw;
+}
+
+.trainer h2 {
+  padding-bottom: 1rem;
+}
+
+.trainer2 h2 {
+  padding-bottom: 1rem;
+}
+
+.feature{
+  width:100vw;
+  background-color: black;
+  text-align: center;
+}
+.feature .feature-heading{
+  text-align:center;
+}
+.feature .feature-heading h1{
+  color:white;
+  z-index:1;
+}
+
+.feature .accessories {
+  color: white;
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  
+}
+.feature .feature-heading #features{
+  z-index: 2;
 }
 
 
