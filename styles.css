@@ -138,11 +138,11 @@ header .sign-up-btn button {
   position: absolute;
   top: 67vw;
   right: 15vw;
-  width: 21vw;
+  width: 20vw;
 }
 
-.about {
-  padding: 5vw 0vw 0vw 18vw;
+.heading-img {
+  padding: 0vw 0vw 0vw 11vw;
   width: 24%;
 }
 
@@ -151,7 +151,7 @@ header .sign-up-btn button {
   font-size: 15px;
 }
 
-.about h3 {
+.heading-img h3 {
   padding-bottom: 1rem;
   font-size: 42px;
 }
@@ -184,29 +184,63 @@ padding-left: 24%;
   padding-bottom: 1rem;
 }
 
-.feature{
-  width:100vw;
-  background-color: black;
+section.features {
   text-align: center;
-}
-.feature .feature-heading{
-  text-align:center;
-}
-.feature .feature-heading h1{
-  color:white;
-  z-index:1;
+  background-color: black;
+  height: 40vh;
 }
 
-.feature .accessories {
+.feature {
+  position: relative;
+  padding-top: 3%;
+}
+
+.feature h1{
+  position: absolute;
+  left: 40%;
+  font-size: 70px;
+  opacity: 0.5;
+  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 1px white;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
+.feature h2{
+  position: absolute;
+  left: 41%;
+  font-size: 37px;
+  margin:2% 1%;
+  color: white;
+}
+.feature p{
+  color: white;
+
+}
+
+.features .accessories {
+  padding-top: 2%;
   color: white;
   display: flex;
   position: relative;
   justify-content: center;
-
-  
+  gap: 2%; 
 }
-.feature .feature-heading #features{
-  z-index: 2;
+.shirts-box {
+  background-color: #dfd7d748;
+  padding: 5px;
+}
+.pants-box {
+  background-color: #dfd7d748;
+  padding: 5px;
+}
+.hoodie-box {
+  background-color: #dfd7d748;
+  padding: 5px;
+}
+.cap-box{
+  background-color: #dfd7d748;
+  padding: 5px;
 }
 
 
