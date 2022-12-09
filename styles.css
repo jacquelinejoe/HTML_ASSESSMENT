@@ -128,8 +128,8 @@ header .sign-up-btn button {
 
 .hero .bck-ground-logo {
   position: absolute;
-  width: 39vw;
-  left: 59vw;
+  width: 34vw;
+  left: 64vw;
   padding: 0;
   margin: 0; 
 }
@@ -138,7 +138,7 @@ header .sign-up-btn button {
   position: absolute;
   top: 67vw;
   right: 15vw;
-  width: 20vw;
+  width: 18vw;
 }
 
 .heading-img {
@@ -187,35 +187,23 @@ padding-left: 24%;
 section.features {
   text-align: center;
   background-color: black;
-  height: 40vh;
+  height: 150vh;
+  color: white;
 }
 
 .feature {
   position: relative;
-  padding-top: 3%;
+  padding-top: 0;
 }
 
-.feature h1{
-  position: absolute;
-  left: 40%;
-  font-size: 70px;
-  opacity: 0.5;
-  text-shadow: 1px 1px 2px black, 0 0 4px white, 0 0 1px white;
-  font-family: 'Times New Roman', Times, serif;
-  
+.features-img {
+  width: 40vw;
+
 }
-
-
-.feature h2{
-  position: absolute;
-  left: 41%;
-  font-size: 37px;
-  margin:2% 1%;
+.features p {
   color: white;
-}
-.feature p{
-  color: white;
-
+  position: relative;
+  bottom: 3vw
 }
 
 .features .accessories {
@@ -224,23 +212,141 @@ section.features {
   display: flex;
   position: relative;
   justify-content: center;
-  gap: 2%; 
+  gap: 2%;
+  bottom: 3vw; 
 }
-.shirts-box {
+
+
+.features .feature .feature-box{
+ 
+   display: flex;
+  justify-content: center;
+  padding-left:10%;
+  padding-right:10%;
+ 
+}
+
+.features .feature .feature-box div{
   background-color: #dfd7d748;
-  padding: 5px;
+  padding:2%;
+  height: 35vh;
+  padding-bottom:3%;
+
+  
+
+  
+ 
+ 
+  
 }
+
+.features .feature .feature-box div h1{
+  font-size: 1.5rem;
+  
+}
+.features .feature .feature-box div img{
+  padding-top:5%;
+  width:50%;
+  
+}
+
+.features .feature .feature-box div p{
+  margin-top:50px;
+  font-size: 0.9rem;
+   
+ 
+}
+
+
+.accessories p{
+  position: relative;
+  top: 0rem;
+}
+ 
+
+ 
+ 
+
 .pants-box {
   background-color: #dfd7d748;
   padding: 5px;
 }
+
+.girl-pic img {
+  width: 16vw;
+  position: relative;
+  left: 33vw;
+  bottom: 5vw
+}
+
+.read-me {
+  position: relative;
+    left: 36vw;
+    bottom: 15vw;
+    background-color: red;
+    height: 10vw;
+    width: 65vw;
+    color: white
+}
+
+.read-me h1 {
+  font-size: 35px;
+  padding: 1rem 5rem
+}
+
+.read-me button{
+  width: 8vw;
+  height: 34px;
+  position: relative;
+  left: 5vw;
+  top: 1vw;
+  background-color: red;
+  border-color: white;
+  color: white
+}
+
+.read-me p {
+  font-size: 17px;
+    padding: 0rem 5rem
+}
+
+
+
+.pants-box h1 {
+  font-size: 22px;
+  padding: 1rem 0rem 2rem 0rem; 
+}
+
+.pants-box p {
+  padding: 1rem 0rem 1rem 0rem;
+}
+
 .hoodie-box {
   background-color: #dfd7d748;
   padding: 5px;
 }
-.cap-box{
+
+.hoodie-box h1 {
+  font-size: 22px;
+  padding: 1rem 0rem 2rem 0rem; 
+}
+
+.hoodie-box p {
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+.cap-box {
   background-color: #dfd7d748;
   padding: 5px;
+}
+
+.cap-box h1 {
+  font-size: 22px;
+  padding: 1rem 0rem 2rem 0rem; 
+}
+
+.cap-box p {
+  padding: 2rem 0rem 0rem 0rem;
 }
 
 
