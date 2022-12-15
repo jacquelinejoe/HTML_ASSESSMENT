@@ -121,7 +121,7 @@ header .sign-up-btn button {
   width: 100%;
 }
 .couple-section{
-  width:80vw;
+  width:94vw;
   margin:2vw auto 0 auto;
   display:flex;
 }
@@ -184,108 +184,131 @@ padding-left: 24%;
   padding-bottom: 1rem;
 }
 
-section.features {
+.feature{
   text-align: center;
   background-color: black;
-  height: 150vh;
   color: white;
-}
-
-.feature {
   position: relative;
-  padding-top: 0;
+  width: 100%;
 }
 
 .features-img {
-  width: 40vw;
-
-}
-.features p {
-  color: white;
-  position: relative;
-  bottom: 3vw
+  width: 45%;
+  padding: 1rem;
 }
 
-.features .accessories {
-  padding-top: 2%;
+
+.info-section {
+  text-align: center;
+  background-color: black;
   color: white;
   display: flex;
+  padding: 15rem 7vw;
   position: relative;
-  justify-content: center;
-  gap: 2%;
-  bottom: 3vw; 
 }
-
-
-.features .feature .feature-box{
- 
-   display: flex;
-  justify-content: center;
-  padding-left:10%;
-  padding-right:10%;
- 
-}
-
-.features .feature .feature-box div{
-  background-color: #dfd7d748;
-  padding:2%;
-  height: 35vh;
-  padding-bottom:3%;
-
   
+.feature-box {
+  width: 20vw;
+  padding: 2.5vw;
+  border: 1px solid white;
+  margin: 2vw
+} 
 
-  
- 
- 
-  
-}
-
-.features .feature .feature-box div h1{
+.feature-box h1 {
+  padding-bottom: 2rem;
   font-size: 1.5rem;
-  
-}
-.features .feature .feature-box div img{
-  padding-top:5%;
-  width:50%;
-  
 }
 
-.features .feature .feature-box div p{
-  margin-top:50px;
-  font-size: 0.9rem;
-   
- 
+.top {
+  width: 136px;
+}
+
+.feature-box p {
+  font-size: 12px;
+  width: 160px;
+  padding-top: 1rem;
+}
+
+.feature-box1 {
+  width: 20vw;
+  padding: 2.5vw;
+  border: 1px solid white;
+  margin: 2vw
+}
+
+.feature-box1 h1 {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.bottom {
+  width: 84px;
+}
+
+.feature-box1 p{
+  padding-top: 1rem;
+  font-size: 12px;
+  width: 156px;
+}
+
+.feature-box2 {
+  width: 20vw;
+  padding: 2.5vw;
+  border: 1px solid white;
+  margin: 2vw
+} 
+
+.feature-box2 h1 {
+  padding-bottom: 2rem;
+  font-size: 23px;
+  width: 274px;
+}
+
+.jacket {
+  width: 126px;
+}
+
+.feature-box2 p {
+  padding-top: 1rem;
+  font-size: 14px;
 }
 
 
-.accessories p{
-  position: relative;
-  top: 0rem;
+.feature-box3 {
+  width: 20vw;
+  padding: 2.5vw;
+  border: 1px solid white;
+  margin: 2vw
+} 
+
+.feature-box3 h1 {
+  padding-bottom: 2rem;
 }
- 
 
- 
- 
+.cap {
+  width: 120px;
+  padding-top: 1rem;
+}
 
-.pants-box {
-  background-color: #dfd7d748;
-  padding: 5px;
+.feature-box3 p {
+    padding-top: 3rem;
+    font-size: 13px
 }
 
 .girl-pic img {
   width: 16vw;
   position: relative;
-  left: 33vw;
+  left: 17vw;
   bottom: 5vw
 }
 
 .read-me {
   position: relative;
-    left: 36vw;
+    left: 33vw;
     bottom: 15vw;
     background-color: red;
     height: 10vw;
-    width: 65vw;
+    width: 66vw;
     color: white
 }
 
@@ -310,44 +333,265 @@ section.features {
     padding: 0rem 5rem
 }
 
+.information-section {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 12vw;
+  bottom: 15vw;
+  position: relative;
+  width: 100;
+  padding: 2rem 0rem;
+}
+
+.muscle h1 {
+    position: relative;
+    left: 79px;
+    bottom: 58px;
+    font-size: 40px
+}
+
+.muscle p {
+    position: relative;
+    bottom: 61px;
+    left: 81px
+}
+
+.bike h1 {
+    position: relative;
+    left: 79px;
+    bottom: 58px;
+    font-size: 40px
+}
+
+.bike p {
+    position: relative;
+    bottom: 61px;
+    left: 81px
+}
+
+.medicine h1 {
+    position: relative;
+    left: 73px;
+    bottom: 66px;
+    font-size: 40px
+}
+
+.medicine p {
+    position: relative;
+    bottom: 73px;
+    left: 75px
+}
+
+.weight h1 {
+    position: relative;
+    left: 105px;
+    bottom: 55px;
+    font-size: 40px
+}
+
+.weight p {
+    position: relative;
+    bottom: 61px;
+    left: 107px
+}
+
+section.products {
+  height: 52vw;
+}
+
+.Product img {
+  position: relative;
+  left: 11vw;
+}
+
+div.facts {
+  position: relative;
+  left: 45vw;
+  bottom: 28vw;
+}
+
+.facts h1 {
+  font-size: 25px;
+  padding-bottom: 1rem;
+}
+
+.facts h2 {
+  font-size: 80px;
+}
+
+.facts p {
+  font-size: 23px;
+  padding-top: 2rem;
+}
+
+div.Protein {
+  position: relative;
+  left: 95vh;
+  bottom: 25vw;
+  display: flex;
+  gap: 4rem;
+}
+
+.Protein button {
+  width: 17vh;
+  height: 5vh;
+  border-radius: 25px
+}
+
+div.price {
+  position: relative;
+  left: 45vw;
+  bottom: 23vw;
+}
+
+.price h1 {
+  font-size: 83px;
+  padding-bottom: 2rem
+}
+
+.price button {
+  width: 198px;
+  height: 63px;
+}
+
+section.info-box {
+  background-color: #EEEEEE;
+  height: 23vw;
+}
 
 
-.pants-box h1 {
+.subscribe-section {
+  background-color: red;
+  width: 57%;
+  position: relative;
+  left: 25vw;
+  bottom: 7vw;
+  height: 30vh;
+  border-radius: 3rem;
+  color: white;
+}
+
+.left-subscribe {
+  position: relative;
+  top: 6vw;
+  left: 92px
+}
+
+.left-subscribe h1 {
+  font-size: 44px;
+  position: relative;
+  bottom: 3vw;
+  right: 27px;
+}
+
+.left-subscribe h2 {
+  font-size: 20px;
+  position: relative;
+  right: 31px;
+  bottom: 3vw;
+  font-weight: lighter
+}
+
+.left-subscribe p {
+  position: relative;
+  top: -2vw;
+  left: -30px;
+}
+
+.right-subscribe {
+  position: relative;
+  left: 37vw;
+  color: black
+}
+
+.right-subscribe input {
+  position: relative;
+  right: 2vw;
+  bottom: 2vw;
+  width: 31vh;
+  height: 33px
+}
+
+.right-subscribe label {
+  position: relative;
+  right: 35vh;
+  bottom: 34px;
   font-size: 22px;
-  padding: 1rem 0rem 2rem 0rem; 
 }
 
-.pants-box p {
-  padding: 1rem 0rem 1rem 0rem;
+.right-subscribe1 {
+  position: relative;
+  left: 37.5vw;
+  padding-top: 1rem
+
 }
 
-.hoodie-box {
-  background-color: #dfd7d748;
-  padding: 5px;
+.right-subscribe1 input {
+  bottom: 37px;
+  width: 31vh;
+  position: relative;
+  right: 52px;
+  height: 2rem
 }
 
-.hoodie-box h1 {
+.right-subscribe1 label {
+  position: relative;
+  right: 36vh;
+  bottom: 1.5vw;
+  color: black;
   font-size: 22px;
-  padding: 1rem 0rem 2rem 0rem; 
 }
 
-.hoodie-box p {
-  padding: 1rem 0rem 1rem 0rem;
+.aligncenter button {
+  height: 2rem;
+  background-color: black;
+  position: relative;
+  left: 35vw;
+  top: 1px;
+  color: white;
+  width: 32vh;
+  font-size: 19px;
+
 }
 
-.cap-box {
-  background-color: #dfd7d748;
-  padding: 5px;
+.footer {
+  background-color: black;
+  color: white;
+  height: 35vh;
 }
 
-.cap-box h1 {
-  font-size: 22px;
-  padding: 1rem 0rem 2rem 0rem; 
+.footer-img img {
+  position: relative;
+  left: 44vw;
+  padding: 32px;
 }
 
-.cap-box p {
-  padding: 2rem 0rem 0rem 0rem;
+
+.footer-section {
+  position: relative;
+  text-align: center
 }
+
+.footer-section h1 {
+
+}
+
+.footer-section h2 {
+  padding-top: 1rem;
+}
+
+.footer-section h3 {
+  padding-top: 1rem;
+}
+
+.footer-section h4 {
+  position: relative;
+  top: 2vw;
+}
+
+
 
 
 
