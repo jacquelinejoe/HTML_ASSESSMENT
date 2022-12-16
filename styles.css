@@ -203,7 +203,7 @@ padding-left: 24%;
   background-color: black;
   color: white;
   display: flex;
-  padding: 15rem 7vw;
+  padding: 7rem 7vw;
   position: relative;
 }
   
@@ -397,19 +397,35 @@ padding-left: 24%;
     left: 107px
 }
 
+.products .products-info {
+  display: flex;
+  justify-content: center;
+   /* z-index: -3; */
+  position: absolute;
+  top: 3vw;
+  left: 4vw;
+  background-color: white;
+   /* width: 70%; */
+   /* margin: 10vw auto; */
+}
+
+#inclined-img {
+  width: 100vw;
+}
+
 section.products {
-  height: 52vw;
+  /* height: 52vw; */
+  position: relative;
+  bottom: 15vw;
 }
 
 .Product img {
-  position: relative;
+  /* position: relative; */
   left: 11vw;
 }
 
 div.facts {
-  position: relative;
-  left: 45vw;
-  bottom: 28vw;
+  padding: 5vw 0vw 3vw 0vw;
 }
 
 .facts h1 {
@@ -427,7 +443,7 @@ div.facts {
 }
 
 div.Protein {
-  position: relative;
+  /* position: relative; */
   left: 95vh;
   bottom: 25vw;
   display: flex;
@@ -436,19 +452,19 @@ div.Protein {
 
 .Protein button {
   width: 17vh;
-  height: 5vh;
+   height: 5vh; 
   border-radius: 25px
 }
 
 div.price {
-  position: relative;
+  /* position: relative; */
   left: 45vw;
   bottom: 23vw;
 }
 
 .price h1 {
   font-size: 83px;
-  padding-bottom: 2rem
+  padding: 1rem 0rem;
 }
 
 .price button {
@@ -456,21 +472,97 @@ div.price {
   height: 63px;
 }
 
+div.h1 {
+  background-color: rbg(243,243,243);
+}
 section.info-box {
-  background-color: #EEEEEE;
-  height: 23vw;
+  padding: 2%;
+  background-color: red;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+  border-radius: 20px;
+  position: relative;
+  bottom: 19vw;
+  height: 7vw;
+}
+
+.subscribe-section {
+    width: 100%;
+    display: grid;
+    height: 10rem;
+    position: relative;
+    left: -28vw;
+    bottom: -3vw
+}
+
+.left-subscribe{
+  width:100%;
+  color: white;
+}
+
+.left-subscribe h1 {
+  font-size: 42px;
+}
+
+.left-subscribe h2{
+  font-size: 26px;
+}
+
+.left-subscribe p {
+  font-size: 13px;
+  padding-top: 1rem;
+}
+
+.right-subscribe {
+  width: 20vw;
+  height: 2rem;
+}
+
+.right-subscribe1 {
+  width: 20vw;
+  height: 2rem;
+}
+
+input#name-subscribe {
+  width: 20vw;
+  height: 2rem;
+  position: relative;
+  top: 5rem;
+  left: 40px;
+}
+
+input#email-subscribe {
+  width: 20vw;
+  height: 2rem;
+}
+
+.aligncenter {
+  width: 20vw;
+  height: 2rem;
+}
+
+button.btn {
+  width: 20vw;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  font-size: 19px
 }
 
 
-.subscribe-section {
+section.info-box {
   background-color: red;
-  width: 57%;
-  position: relative;
-  left: 25vw;
+  width:64%;
+  left: 0vw;
   bottom: 7vw;
-  height: 30vh;
+  height: 23vh;
   border-radius: 3rem;
   color: white;
+  position: relative;
+    bottom: 72vh;
 }
 
 .left-subscribe {
@@ -482,28 +574,30 @@ section.info-box {
 .left-subscribe h1 {
   font-size: 44px;
   position: relative;
-  bottom: 3vw;
+  bottom: 5vw;
   right: 27px;
+  padding-bottom: 1rem;
 }
 
 .left-subscribe h2 {
   font-size: 20px;
   position: relative;
   right: 31px;
-  bottom: 3vw;
+  bottom: 6vw;
   font-weight: lighter
 }
 
 .left-subscribe p {
   position: relative;
-  top: -2vw;
+  top: -4vw;
   left: -30px;
 }
 
 .right-subscribe {
-  position: relative;
-  left: 37vw;
-  color: black
+ position: inherit;
+  left: 32vw;
+  color: black;
+  bottom: 7vw;
 }
 
 .right-subscribe input {
@@ -522,7 +616,7 @@ section.info-box {
 }
 
 .right-subscribe1 {
-  position: relative;
+   position: inherit;
   left: 37.5vw;
   padding-top: 1rem
 
@@ -556,26 +650,24 @@ section.info-box {
 
 }
 
+
 .footer {
   background-color: black;
   color: white;
   height: 35vh;
+  bottom: 8vw;
+  position: relative;
+  bottom: 39vw;
 }
 
 .footer-img img {
-  position: relative;
-  left: 44vw;
-  padding: 32px;
+  padding: 2vw 0vw 2vw 44vw;
 }
 
 
 .footer-section {
-  position: relative;
-  text-align: center
-}
-
-.footer-section h1 {
-
+  /* position: relative; */
+  text-align: center;
 }
 
 .footer-section h2 {
@@ -587,8 +679,14 @@ section.info-box {
 }
 
 .footer-section h4 {
-  position: relative;
+  /* position: relative; */
   top: 2vw;
+}
+
+.bottom-footer h1 {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 13px;
 }
 
 
