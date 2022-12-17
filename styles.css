@@ -557,12 +557,12 @@ section.info-box {
   background-color: red;
   width:64%;
   left: 0vw;
-  bottom: 7vw;
+  bottom: 60vw;
   height: 23vh;
   border-radius: 3rem;
   color: white;
   position: relative;
-    bottom: 72vh;
+  bottom: 87vh;
 }
 
 .left-subscribe {
@@ -626,7 +626,7 @@ section.info-box {
   bottom: 37px;
   width: 31vh;
   position: relative;
-  right: 52px;
+  right: 70px;
   height: 2rem
 }
 
@@ -642,7 +642,7 @@ section.info-box {
   height: 2rem;
   background-color: black;
   position: relative;
-  left: 35vw;
+  left: 36vw;
   top: 1px;
   color: white;
   width: 32vh;
